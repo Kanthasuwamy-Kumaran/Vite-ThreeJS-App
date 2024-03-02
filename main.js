@@ -36,7 +36,7 @@ const gridHelper = new THREE.GridHelper(10, 10)
 scene.add(gridHelper)
 
 // Add a light
-const light = new THREE.DirectionalLight(0xff0000, 1)
+const light = new THREE.DirectionalLight(0xffffff, 1)
 light.position.set(-1, 3, 4)
 scene.add(light)
 
